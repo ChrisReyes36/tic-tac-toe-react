@@ -22,6 +22,6 @@ export const WinnerModal = ({ winner, resetGame }) => {
 };
 
 WinnerModal.propTypes = {
-  winner: PropTypes.string.isRequired,
-  resetGame: PropTypes.func.isRequired,
+  winner: PropTypes.string,
+  resetGame: PropTypes.func,
 };
